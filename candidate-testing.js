@@ -35,19 +35,19 @@ function gradeQuiz(candidateAnswers) {
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 candidateScore = 0;
 maxScore = 5;
-if (candidateAnswers[0].toLowerCase() == correctAnswers[0].toLowerCase()) {
+if (candidateAnswers[0].toLowerCase() === correctAnswers[0].toLowerCase()) {
   candidateScore += 1;
 }
-if (candidateAnswers[1].toLowerCase() == correctAnswers[1].toLowerCase()) {
+if (candidateAnswers[1].toLowerCase() === correctAnswers[1].toLowerCase()) {
   candidateScore +=1;
 }
-if (candidateAnswers[2].toLowerCase() == correctAnswers[2].toLowerCase()) {
+if (candidateAnswers[2].toLowerCase() === correctAnswers[2].toLowerCase()) {
   candidateScore +=1;
 }
-if (candidateAnswers[3].toLowerCase() == correctAnswers[3].toLowerCase()) {
+if (candidateAnswers[3].toLowerCase() === correctAnswers[3].toLowerCase()) {
   candidateScore +=1;
 }
-if (candidateAnswers[4].toLowerCase() == correctAnswers[4].toLowerCase()) {
+if (candidateAnswers[4].toLowerCase() === correctAnswers[4].toLowerCase()) {
   candidateScore +=1;
 }
 
