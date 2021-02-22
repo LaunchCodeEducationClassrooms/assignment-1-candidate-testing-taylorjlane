@@ -53,7 +53,7 @@ if (candidateAnswers[4].toLowerCase() == correctAnswers[4].toLowerCase()){
 
 
   let grade = candidateScore/maxScore * 100;
-  console.log(`>>> Overall Grade: ${grade}% (${candidateScore} / ${maxScore} were correct) <<<`);
+  console.log(`>>> Overall Grade: ${grade}% (${candidateScore} / ${maxScore} responses correct) <<<`);
   if (grade >= 80){
     console.log(`>>> Status: PASSED <<<`)
   } else {
